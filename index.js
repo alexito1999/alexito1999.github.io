@@ -57,7 +57,7 @@ var nfc = {
   };
   window.onload = nfc.init;
 
-  ndef.write({
+  /* ndef.write({
     records: [
       { recordType:"text", data:"Hello World" },
       { recordType:"url", data:"https://code-boxx.com/" },
@@ -75,4 +75,4 @@ var nfc = {
   ndef.makeReadOnly()
   .then(() => nfc.logger("Tag is now read only."))
   .catch(err => nfc.logger("ERROR - " + err.message));
-
+ */
